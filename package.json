@@ -1,0 +1,45 @@
+{
+  "name": "sener.is",
+  "version": "0.0.1",
+  "description": "personal website",
+  
+  "dependencies": {
+    "blast-text": "^2.0.0",
+    "browserify": "^10.2.4",
+    "browser-sync": "^2.7.13",
+    "d3": "^3.5.6",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3",
+    "lodash": "^3.10.0",
+    "mithril": "^0.2.0",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0",
+    "pg": "^4.4.0",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.58.0",
+    "sequelize": "^3.3.2",
+    "socket.io": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+    "postinstall": "gulp copy; gulp browserify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanseneris/alikespace.git"
+  },
+  "author": "jonathanseneris",
+  "license": "DBAD",
+  "bugs": {
+    "url": "https://github.com/jonathanseneris/alikespace/issues"
+  },
+  "homepage": "https://github.com/jonathanseneris/alikespace",
+  "engines": {
+    "node": "0.12.6",
+    "npm": "^2.1"
+  }
+}
